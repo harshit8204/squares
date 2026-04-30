@@ -1,58 +1,64 @@
-*{
-    margin:0%;
-    padding:0%;
-    box-sizzing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
-     height: 100%;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     
 
-
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1{
+
+h1 {
     font-weight: normal;
 }
-.shape{
-    margin-left:10px; margin-top: 10px;  
+
+.shape {
+    margin-left: 10px;
+    margin-top: 10px;
     height: 200px;
     width: 200px;
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.2s ease;
 }
-#sqaure:hover{
+
+#square:hover {
     background-color: red;
-
 }
-#circle{
+
+#circle {
     border-radius: 50%;
-
 }
-#circle:hover{
+
+#circle:hover {
     background-color: green;
 }
-#diamond{
+
+#diamond {
     rotate: 45deg;
     margin-top: 40px;
     height: 141px;
     width: 141px;
-    translate: 30px ;
-
+    translate: 30px;
 }
-#diamond:hover{
+
+#diamond:hover {
     background-color: blue;
 }
-#diamond h1{
+
+#diamond h1 {
     rotate: -45deg;
 }
